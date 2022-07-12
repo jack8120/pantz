@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #F4F8FF;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #0A86FA;
+    border: 78px;
+  }
+  
+  h1 {text-align: center;
+      font-size: 50pt;
+     }
+  .pantsmargin {
+    margin-bottom: 50px;
+  }
+  .center {
+    margin: auto;
+    line-height: 50px;
+    width: 30%;
+   
+    padding: 30px;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    width:100px;height:100px;
+    border: 1px hidden;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .search {
+      position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 20px;
+    }
+  
+  .hero {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80%;
+    border: 1px hidden;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+  }
+  .info {
+    margin-top: 50px;
+    margin-bottom: 50;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50%;
+    border: 1px solid blue;
+    padding: 15px;
+    text-align: center;
+    line-height: 50px;
+    width: 70%;
+    background-color:#0A86FA ;
+   
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 19%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  
+  footer {
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 10px;
+    width: 100%;
+    background-color:#0A86FA ;
+  }
+  
+  .socmed{
+    
+    width:200px; 
+    height:66px;
+    
+    
+  }
+  
+  
